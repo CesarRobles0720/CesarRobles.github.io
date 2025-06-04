@@ -1,0 +1,218 @@
+/*Configuracion de Pantalla*/
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+ }
+
+/*Divs*/
+
+ div#general {
+    position:relative;
+    margin:0 auto;
+    width:630px;
+    height:1959px;
+    background-image: url(https://hildaskitchenblog.com/wp-content/uploads/2025/03/chicharrones-de-harina-ingredients-1-2.jpg);
+ }
+
+ div#cabezera {
+    position: relative;
+    margin: yellow solid 10px auto;
+    width: 600px;
+    height: 150px;
+ } 
+
+ div#imagen{
+    float: left;
+    width: 50px;
+    height: 600px; 
+    border: red solid 5px;
+    background-color: aqua;
+ }
+
+ div#navegacion {
+    position: relative;
+    margin: yellow solid10px auto;
+    width: 600px;
+    height: 50px; 
+ }
+
+ div#cuerpo{
+  background-color: blueviolet;
+  float: right;
+  width: 600px;
+  height: 50px; 
+ }
+
+ div#secciones{
+  float: left;
+  margin: 20px;
+  width: 50%;
+  max-width: 500px;
+ }
+
+ /*Estructura General*/
+
+ header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://i.pinimg.com/736x/74/ab/9b/74ab9ba563b47e847d34395cf08a7052.jpg);
+    border: yellow solid 5px;
+    color:white;
+    margin: 10px auto;
+    padding: 25px;
+    width: 570px;
+    height: 90px;
+ }
+
+ footer {
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ background-image: url(https://i.pinimg.com/736x/74/ab/9b/74ab9ba563b47e847d34395cf08a7052.jpg);
+ border: yellow solid 5px;
+ color:white;
+ margin: 10px auto;
+ padding: 25px;
+ width: 530px;
+ height: 5px;
+ }
+
+ img {
+  float: right;
+  margin: auto 30px;
+  width: 200px;
+  height: 160px; 
+  border: red solid 5px;
+  background-color: aqua;
+ }
+
+ /* Navegación */
+nav {
+  background-color: red;
+  color: white;
+  width: 600px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+nav a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li:not(:last-child)::after {
+  content: '|';
+  margin-left: 10px;
+  color: yellow;
+}
+
+/*Textos*/
+
+h1,h2 ,h3 {
+ text-align: center;
+}
+
+
+/*Tablas*/
+
+ table{
+    margin: 0px auto;
+    padding: 5px;
+    width: 500px;
+ }
+
+ th {
+  padding: 3px;
+  text-align: center;
+  background: white;
+  color: red;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+
+/*Secciones*/
+
+.seccion1{
+  padding: 15px;
+  width: 250px;
+  height: 100px;
+  margin: 12px;
+  background-color: red;
+  border:yellow solid 10px ;
+  text-align: justify;
+}
+
+.seccion2{
+  padding: 25px;
+  width: 485px;
+  height: 230px;
+  margin: 12px;
+  border:yellow solid 10px ;
+  background-color: red;
+}
+
+.seccion3{
+  padding: 30px;
+  width: 480px;
+  height: 400px;
+  margin: 12px;
+  border:yellow solid 10px ;
+  background-color: red;
+}
+
+.seccion4{
+  padding: 30px;
+  width: 480px;
+  height: 400px;
+  margin: 12px;
+  border:yellow solid 10px ;
+  background-color: red;
+}
+
+.seccion5{
+  padding: 30px;
+  width: 480px;
+  height: 100px;
+  margin: 12px;
+  border:yellow solid 10px ;
+  background-color: red;
+  text-align: center;
+}
+
+
+/*Listas*/
+
+ol {
+ padding: 30px;
+  width: 480px;
+  margin: 10px;
+  color: white;
+}
+
+
+
+
