@@ -1,0 +1,171 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding-left: 200px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  background: #fff;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #1F1F1F;
+}
+
+header h2 {
+  font-size: 1.5em;
+  color: #4A90E2;
+}
+
+header h3 {
+  font-size: 1em;
+  color: #333;
+  margin-top: 0.5em;
+}
+
+/* Navegación */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background: #1F1F1F;
+  color: #fff;
+  padding: 1.5em 1em;
+  border-right: 1px solid #ddd;
+}
+
+nav h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 0;
+}
+
+nav li a {
+  color: #4A90E2;
+  text-decoration: none;
+  padding: 0.5em;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+nav li a:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Secciones */
+main section {
+  background: #fff;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1F1F1F;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+section h3 {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* Formularios */
+form label {
+  font-weight: bold;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+form button {
+  padding: 0.75em 1.5em;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1D72B8;
+}
+
+/* Footer */
+footer {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  body {
+    padding-left: 0;
+  }
+
+  nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main section {
+    margin: 1em;
+  }
+}

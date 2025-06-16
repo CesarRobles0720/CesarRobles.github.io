@@ -1,0 +1,534 @@
+<html>
+
+ <head>
+    <title>
+        Proyecto del Libro Trabajo en Orientacion
+    </title>
+ </head>
+
+ <style>
+
+  /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Principal */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+  padding-left: 200px; /* Esto es porque la navegación está fija a la izquierda */
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  background: #ffffff;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  color: #1F1F1F;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header h2 {
+  color: #4A90E2;
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+/* Navegación lateral */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 1.5em 1em;
+}
+
+nav h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 0.8em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5em;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+nav a:hover {
+  background: #eee;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1F1F1F;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  font-size: 0.95em;
+}
+
+th, td {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* Imágenes */
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Estilos adicionales con la paleta minimalista */
+
+body {
+  background-color: #4A90E2;
+  color: #333333;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  z-index: 1000;
+}
+
+nav h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #1D72B8;
+}
+
+/* Footer */
+footer {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Responsividad: Ajustar el navbar para pantallas pequeñas */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 20px 5%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h2 {
+    font-size: 1.2em;
+  }
+}
+
+
+ </style>
+
+ <body>
+
+  <nav>
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="#1">Sinopsis</a></li>
+      <li><a href="#2">Importancia</a></li>
+      <li><a href="#capitulos">Capítulos</a></li>
+      <li><a href="#3">Concientiza</a></li>
+      <li><a href="#4">Encuesta</a></li>
+      <li><a href="#5">Referencias</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Amar a Madrazos</h1>
+    <h2>Castillo Ale y Castillo Moises</h2>
+    <h3>Pagina Creada por: Cesar Miguel Robles del Angel</h3>
+  </header>
+
+  <section id="1">
+    <h1>Sinopsis</h1>
+    <p>
+      <b>Amar a Madrazos</b> es una novela que explora las complejidades de las relaciones familiares, el amor y la violencia dentro de un contexto de difícil convivencia. La historia se centra en una familia disfuncional en la que los miembros se enfrentan a sus propios demonios y conflictos internos. A través de una serie de situaciones extremas y desbordadas, los personajes luchan por encontrar una manera de amar, a pesar de los gritos, los golpes y las incomprensiones.
+    </p><br>
+    <p>
+      En la trama, el protagonista se ve atrapado en una red de relaciones tóxicas, particularmente con su madre, lo que pone de manifiesto los altibajos de la dinámica familiar. En un ambiente de abuso y manipulación, se presenta un amor crudo y lleno de contradicciones, donde el afecto se manifiesta de una forma destructiva. La novela va más allá de una simple historia de violencia doméstica, ofreciendo una reflexión profunda sobre las heridas emocionales que se heredan y la dificultad de romper los ciclos viciosos del amor.
+    </p>
+  </section>
+
+  <section id="2">
+    <h2>Importancia de este Libro</h2>
+    <p>
+      Amar a Madrazos es crucial porque aborda temas como la violencia intrafamiliar, la complejidad del amor y la toxicidad en relaciones familiares, desafiando estereotipos sobre el afecto y la convivencia. Con un estilo irreverente, invita a reflexionar sobre la resiliencia y las contradicciones inherentes al vínculo familiar.
+    </p>
+  </section>
+
+  <!-- Sección única para los capítulos -->
+  <section id="capitulos">
+    <h2>Capítulos</h2>
+
+    <section id="capitulo1">
+      <h3>1. Mi primer golpe</h3>
+      <p>En este capítulo, la protagonista recuerda el primer golpe de su pareja, un momento crucial que marca el inicio de una relación abusiva. Al principio, la relación parecía normal, pero este primer acto de violencia marca el inicio de un patrón destructivo...</p>
+    </section>
+
+    <section id="capitulo2">
+      <h3>2. No seas nenita, no te va a doler</h3>
+      <p>La protagonista enfrenta la negación de su dolor, ya que su pareja minimiza los efectos de la violencia. Las palabras del abusador son un claro intento de manipulación, haciendo que la víctima dude de sus propios sentimientos y su percepción de la realidad...</p>
+    </section>
+
+    <section id="capitulo3">
+      <h3>3. Veneno para gato</h3>
+      <p>La joven comienza a experimentar los efectos de la manipulación emocional del abusador. Aunque el daño no es siempre visible, es profundamente destructivo. La protagonista se ve atrapada en una red de control psicológico donde las amenazas y humillaciones son constantes...</p>
+    </section>
+
+    <section id="capitulo4">
+      <h3>4. Su rostro me persigue</h3>
+      <p>El rostro del abusador se convierte en una imagen constante que persigue a la joven, incluso cuando él no está físicamente presente. Este capítulo describe cómo la protagonista vive constantemente bajo la sombra del miedo y la ansiedad...</p>
+    </section>
+
+    <section id="capitulo5">
+      <h3>5. No creo que me pueda hacer más daño</h3>
+      <p>La protagonista llega a un punto de resignación, donde ya no cree que el abuso pueda ser peor. Sin embargo, el ciclo de violencia continúa. El abusador, al notar su rendición, intensifica sus ataques, tanto físicos como emocionales...</p>
+    </section>
+
+    <section id="capitulo6">
+      <h3>6. Culero</h3>
+      <p>Aquí la protagonista empieza a liberar su rabia interna, aunque con temor. La palabra "culero" refleja la frustración y el desprecio hacia su pareja, pero también la impotencia de no poder salir de la relación...</p>
+    </section>
+
+    <section id="capitulo7">
+      <h3>7. Besos compartidos</h3>
+      <p>En este capítulo, la protagonista recuerda cómo los momentos de ternura y cariño en la relación, como los "besos compartidos", se convierten en un recordatorio doloroso de lo que una vez fue una relación normal...</p>
+    </section>
+
+    <section id="capitulo8">
+      <h3>8. Mira cómo esta puta te está dejando</h3>
+      <p>La humillación y los ataques verbales del abusador se vuelven más intensos. El término "puta" es utilizado para degradar y deshumanizar a la protagonista, quien empieza a perder toda su autoestima...</p>
+    </section>
+
+    <section id="capitulo9">
+      <h3>9. Doble vida</h3>
+      <p>La protagonista comienza a llevar una doble vida: en público muestra una fachada de normalidad, pero en privado es víctima de violencia. Este capítulo muestra la disonancia entre lo que la joven proyecta y lo que vive realmente...</p>
+    </section>
+
+    <section id="capitulo10">
+      <h3>10. ¿Dónde estoy?</h3>
+      <p>El capítulo refleja el caos emocional que vive la protagonista, quien se siente perdida e incapaz de reconocer su vida. El abuso la ha dejado tan confundida que ya no sabe qué es real y qué no lo es...</p>
+    </section>
+
+    <section id="capitulo11">
+      <h3>11. Diez minutos</h3>
+      <p>En este capítulo, la violencia alcanza su punto álgido en solo unos minutos. La protagonista experimenta un episodio especialmente intenso de abuso físico y psicológico, que la deja completamente desorientada...</p>
+    </section>
+
+    <section id="capitulo12">
+      <h3>12. Bajo advertencia no hay engaño</h3>
+      <p>El abusador utiliza las amenazas como un medio de control. En este capítulo, la protagonista se enfrenta a un nuevo nivel de manipulación, donde la violencia es justificada con promesas de consecuencias graves si intenta escapar...</p>
+    </section>
+
+    <section id="capitulo13">
+      <h3>13. Nervio óptico</h3>
+      <p>La violencia comienza a afectar la salud física de la protagonista. En este capítulo, la joven empieza a experimentar síntomas físicos del abuso, como dolores crónicos y fatiga extrema...</p>
+    </section>
+
+    <section id="capitulo14">
+      <h3>14. Espalda negra</h3>
+      <p>Las cicatrices invisibles del abuso son reflejadas a través de la metáfora de la "espalda negra". En este capítulo, la joven se siente abrumada por el peso emocional del sufrimiento que lleva consigo...</p>
+    </section>
+
+    <section id="capitulo15">
+      <h3>15. De aquí no hay salida</h3>
+      <p>Este capítulo muestra el sentimiento de desesperanza total de la protagonista, quien ya no ve ninguna salida a su situación. Siente que está atrapada irremediablemente en una relación abusiva, y las promesas de cambio de su pareja ya no significan nada...</p>
+    </section>
+
+  </section>
+
+  <section id="3">
+
+   <table border="1" id="tabla-violencia" style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th>Categoría</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔍 ¿Qué es la violencia en pareja?</td>
+      <td>Es cualquier acción o comportamiento que cause daño físico, psicológico, sexual o económico dentro de una relación afectiva.</td>
+    </tr>
+    <tr>
+      <td>⚠️ Señales de alerta</td>
+      <td>
+        - Control excesivo<br>
+        - Celos extremos<br>
+        - Aislamiento de amigos o familia<br>
+        - Insultos o humillaciones<br>
+        - Amenazas
+      </td>
+    </tr>
+    <tr>
+      <td>💥 Tipos de violencia</td>
+      <td>
+        - <strong>Física:</strong> Golpes, empujones, estrangulamientos<br>
+        - <strong>Psicológica:</strong> Manipulación, humillación, gaslighting<br>
+        - <strong>Sexual:</strong> Forzar relaciones<br>
+        - <strong>Económica:</strong> Control del dinero o impedir trabajar
+      </td>
+    </tr>
+    <tr>
+      <td>🧠 Consecuencias en la víctima</td>
+      <td>
+        - Baja autoestima<br>
+        - Ansiedad, depresión o estrés postraumático<br>
+        - Aislamiento social<br>
+        - Problemas de salud física y mental
+      </td>
+    </tr>
+    <tr>
+      <td>📣 Qué hacer si sufres violencia</td>
+      <td>
+        - Habla con alguien de confianza<br>
+        - Acude a una organización o línea de ayuda<br>
+        - Documenta los hechos<br>
+        - Crea un plan de salida seguro
+      </td>
+    </tr>
+    <tr>
+      <td>🧩 Cómo ayudar a alguien</td>
+      <td>
+        - Escucha sin juzgar<br>
+        - No minimices su experiencia<br>
+        - Ofrece acompañamiento para buscar ayuda<br>
+        - Respeta sus tiempos y decisiones
+      </td>
+    </tr>
+    <tr>
+      <td>📞 Líneas de ayuda (México)</td>
+      <td>
+        - 911 (Emergencias)<br>
+        - Línea de la Vida: 800 911 2000<br>
+        - INMUJERES: 800 422 5256
+      </td>
+    </tr>
+  </tbody>
+  </table>
+
+  <p id="mensaje-final" style="margin-top: 1em; font-style: italic;   background-color: #ffefc2; padding: 1em; border-left: 5px solid #ffa500;">
+  💡 La violencia no siempre deja marcas visibles. Aprende a reconocer las señales silenciosas. El primer paso para salir es <strong>entender que no es tu culpa</strong>.
+  </p>
+  </section>
+
+  <section id="4">
+
+    <form id="formulario-violencia" method="post" action="/procesar-formulario">
+  <h2>Formulario de reflexión sobre violencia en la pareja</h2>
+
+  <!-- Pregunta 1 -->
+  <label for="pregunta1">1. ¿Alguna vez has identificado conductas de control o celos excesivos en una relación?</label><br>
+  <select id="pregunta1" name="pregunta1" required>
+    <option value="">Selecciona una opción</option>
+    <option value="si">Sí</option>
+    <option value="no">No</option>
+    <option value="no_estoy_seguro">No estoy seguro/a</option>
+  </select><br><br>
+
+  <!-- Pregunta 2 -->
+  <label for="pregunta2">2. ¿Qué tipo de violencia consideras más difícil de detectar?</label><br>
+  <input type="radio" id="fisica" name="pregunta2" value="física" required>
+  <label for="fisica">Física</label><br>
+  <input type="radio" id="psicologica" name="pregunta2" value="psicológica">
+  <label for="psicologica">Psicológica</label><br>
+  <input type="radio" id="sexual" name="pregunta2" value="sexual">
+  <label for="sexual">Sexual</label><br>
+  <input type="radio" id="economica" name="pregunta2" value="económica">
+  <label for="economica">Económica</label><br><br>
+
+  <!-- Pregunta 3 -->
+  <label for="pregunta3">3. ¿A quién acudirías si sospecharas que alguien cercano está siendo víctima de violencia en pareja?</label><br>
+  <input type="text" id="pregunta3" name="pregunta3" placeholder="Escribe tu respuesta..." required><br><br>
+
+  <!-- Pregunta 4 -->
+  <label for="pregunta4">4. ¿Qué señales crees que indican que una persona podría estar sufriendo abuso?</label><br>
+  <textarea id="pregunta4" name="pregunta4" rows="4" cols="50" placeholder="Escribe tu respuesta..." required></textarea><br><br>
+
+  <!-- Pregunta 5 -->
+  <label for="pregunta5">5. ¿Consideras importante recibir educación sobre relaciones sanas en la escuela o comunidad?</label><br>
+  <select id="pregunta5" name="pregunta5" required>
+    <option value="">Selecciona una opción</option>
+    <option value="si">Sí, es fundamental</option>
+    <option value="no">No lo considero importante</option>
+    <option value="depende">Depende del contexto</option>
+  </select><br><br>
+
+  <!-- Botón de envío -->
+  <button type="submit">Enviar respuestas</button>
+ </form>
+
+    
+  </section>
+
+  <section id="5">
+
+    <section id="Creditos">
+  
+    <h2>📚 Créditos y Referencias</h2>
+   <p><strong>Autores base del contenido:</strong></p>
+   <ul>
+    <li>Ale Castillo y Moisés Castillo, autores de <em>“Amar a madrazos”</em>.</li>
+    <li>Instituto Nacional de las Mujeres (INMUJERES).</li>
+    <li>Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH).</li>
+    <li>ENVINOV (Encuesta Nacional en Viviendas sobre la Violencia contra las Mujeres).</li>
+    <li>Programa “Amor es sin violencia” – IMJUVE / INMUJERES.</li>
+    <li>Observatorio de la Mujer en México.</li>
+    <li>Organización Panamericana de la Salud (OPS).</li>
+  </ul>
+  <p>Inspirado en material educativo, legal y de concientización sobre violencia de género y relaciones afectivas en México.</p>
+
+    <section id="ayuda-mexico">
+   <h2>📞 Números y Sitios Web de Ayuda en México</h2>
+
+   <h3>🚨 Emergencias</h3>
+   <ul>
+    <li><strong>911</strong> – Llamada de emergencia inmediata (violencia, salud, seguridad).</li>
+   </ul>
+
+   <h3>🧠 Apoyo emocional y psicológico</h3>
+   <ul>
+    <li><strong>Línea de la Vida:</strong> 800 911 2000 – Atención 24/7<br>
+      <a href="https://www.gob.mx/salud/lineadelavida" target="_blank">https://www.gob.mx/salud/lineadelavida</a>
+    </li>
+   </ul>
+
+   <h3>👩‍⚖️ Apoyo legal y a víctimas de violencia</h3>
+   <ul>
+    <li><strong>INMUJERES:</strong> 800 422 5256<br>
+      <a href="https://www.gob.mx/inmujeres" target="_blank">https://www.gob.mx/inmujeres</a>
+    </li>
+    <li><strong>CONAVIM:</strong><br>
+      <a href="https://www.gob.mx/conavim" target="_blank">https://www.gob.mx/conavim</a>
+    </li>
+    <li><strong>Comisiones Estatales de Derechos Humanos (CEDH):</strong><br>
+      <a href="https://www.cndh.org.mx" target="_blank">https://www.cndh.org.mx</a>
+    </li>
+  </ul>
+
+  <h3>👩‍⚕️ Atención a mujeres</h3>
+  <ul>
+    <li><strong>Centro de Apoyo a la Mujer Margarita Magón (CDMX):</strong> 55 5211 6214</li>
+    <li><strong>Refugios para Mujeres en situación de violencia familiar:</strong><br>
+      <a href="https://refugios.mx" target="_blank">https://refugios.mx</a>
+    </li>
+  </ul>
+    </section>
+
+    <section id="mensaje-final">
+  <p style="background-color: #fff8e1; padding: 1em; border-left: 5px solid #ff9800; font-style: italic;">
+    💡 <strong>Recomendación final:</strong><br>
+    Si tú o alguien que conoces está en una relación violenta, <strong>no estás sola</strong>. Hay redes de apoyo, líneas de ayuda y personas capacitadas para ayudarte. Reconocer el problema es el primer paso para salir de él.
+  </p>
+
+    </section>
+
+  </section>
+    
+  </section>
+
+  <footer>
+    &copy; Derechos Reservados, Cesar Miguel Robles del Angel, Epo 331, 3.1.
+  </footer>
+
+</body>
+</html>
